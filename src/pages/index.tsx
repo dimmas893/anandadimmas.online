@@ -7,6 +7,7 @@ export default function Home() {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Ananda Dimmas Budiarto - Fullstack Developer And Devops</title>
+        <meta name="google-site-verification" content="36eu7KctsJZNMVI-kV0XTCr_IylaXs4E60VsHjWek1U" />
         <meta name="description" content="Ananda Dimmas Budiarto, a Fullstack Developer with high-level experience in both front-end and back-end web development, creating robust and scalable applications with quality work." />
         <meta name="keywords" content="Fullstack Developer, Ananda Dimmas Budiarto Fullstack Developer,Fullstack Developer Ananda Dimmas Budiarto, Frontend Developer, Backend Developer, Web Development, JavaScript, PHP, Laravel, React, Next.js, Node.js, DevOps, CI/CD, Docker, Programmer Blora, Blora, Ketipung, Dimmas, Ananda Dimmas, Ananda Blora, Ananda Dimmas Blora, SMAN 1 JEPON" />
         <meta property="og:title" content="Ananda Dimmas Budiarto - Fullstack Developer" />
@@ -172,7 +173,7 @@ export default function Home() {
             <img src="/packages/images/aku2.jpg" alt="" className="about__img" />
             <div className="about__data">
               <p className="about__description">
-                Fullstack Developer with extensive knowledge and years of experience in developing and maintaining both front-end and back-end systems. Skilled in a wide range of technologies and tools, delivering high-quality, efficient, and scalable solutions.
+                Fullstack Developer and DevOps with extensive knowledge and years of experience in developing and maintaining both front-end and back-end systems. Skilled in a wide range of technologies and tools, delivering high-quality, efficient, and scalable solutions.
               </p>
               <div className="about__info">
                 <div>
