@@ -1,19 +1,30 @@
+import Head from 'next/head';
+
 export default function Home() {
   return (
     <>
-      <meta charSet="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      {/*==================== UNICONS ====================*/}
-      <link
-        rel="stylesheet"
-        href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-      />
-      {/*==================== SWIPER CSS ====================*/}
-      <link rel="stylesheet" href="/packages/css/swiper-bundle.min.css" />
-      {/*==================== CSS ====================*/}
-      <link rel="stylesheet" href="/packages/css/styles.css" />
-      <title>Ananda Dimmas Budiarto</title>
-      {/*==================== HEADER ====================*/}
+      <Head>
+        <meta charSet="UTF-8" />
+        <link rel="icon" href="/packages/images/icon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ananda Dimmas Budiarto - Fullstack Developer</title>
+        <meta name="description" content="Ananda Dimmas Budiarto, a Fullstack Developer with high-level experience in both front-end and back-end web development, creating robust and scalable applications with quality work." />
+        <meta name="keywords" content="Fullstack Developer, Ananda Dimmas Budiarto, Frontend Developer, Backend Developer, Web Development, JavaScript, PHP, Laravel, React, Next.js, Node.js, DevOps, CI/CD, Docker" />
+        <meta property="og:title" content="Ananda Dimmas Budiarto - Fullstack Developer" />
+        <meta property="og:description" content="Ananda Dimmas Budiarto, a Fullstack Developer with high-level experience in both front-end and back-end web development, creating robust and scalable applications with quality work." />
+        <meta property="og:image" content="/packages/images/aku.jpeg" />
+        <meta property="og:url" content="https://yourwebsite.com" />
+        <meta property="og:type" content="website" />
+        {/*==================== UNICONS ====================*/}
+        <link
+          rel="stylesheet"
+          href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+        />
+        {/*==================== SWIPER CSS ====================*/}
+        <link rel="stylesheet" href="/packages/css/swiper-bundle.min.css" />
+        {/*==================== CSS ====================*/}
+        <link rel="stylesheet" href="/packages/css/styles.css" />
+      </Head>
       <header className="header" id="header">
         <nav className="nav container">
           <a href="#" className="nav__logo">
@@ -130,7 +141,7 @@ export default function Home() {
               </div>
               <div className="home__data">
                 <h1 className="home__title">Hi, I am Ananda Dimmas Budiarto</h1>
-                <h3 className="home__subtitle">Fullstack Developer</h3>
+                <h3 className="home__subtitle">Fullstack Developer And Devops</h3>
                 <p className="home__description">
                   High level experience in both front-end and back-end web development, creating robust and scalable applications with quality work.
                 </p>
