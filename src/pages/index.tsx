@@ -17,7 +17,7 @@ export default function Home() {
       <header className="header" id="header">
         <nav className="nav container">
           <a href="#" className="nav__logo">
-            Prashanna Sathiyamoorthy
+            Ananda Dimmas Budiarto
           </a>
           <div className="nav__menu" id="nav-menu">
             <ul className="nav__list grid">
