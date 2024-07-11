@@ -196,7 +196,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="about__buttons">
-                <a download="" href="packages/pdf/" className="button button--flex">
+                <a download="" href="/packages/ananda-dimmas-budiarto.pdf" className="button button--flex">
                   Download CV
                   <i className="uil uil-download-alt button__icon" />
                 </a>
