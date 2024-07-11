@@ -1017,7 +1017,7 @@ export default function Home() {
           <div className="footer__container container grid">
             <div>
               <h1 className="footer__title">Ananda Dimmas Budiarto</h1>
-              <span className="footer__subtitle">Fullstack Developer</span>
+              <span className="footer__subtitle">Fullstack Developer And Devops</span>
             </div>
             <ul className="footer__links">
               <li>
