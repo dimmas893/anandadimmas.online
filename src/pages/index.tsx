@@ -12,7 +12,7 @@ export default function Home() {
       <link rel="stylesheet" href="/packages/css/swiper-bundle.min.css" />
       {/*==================== CSS ====================*/}
       <link rel="stylesheet" href="/packages/css/styles.css" />
-      <title>Prashanna</title>
+      <title>Ananda Dimmas Budiarto</title>
       {/*==================== HEADER ====================*/}
       <header className="header" id="header">
         <nav className="nav container">
@@ -77,21 +77,21 @@ export default function Home() {
             <div className="home__content grid">
               <div className="home__social">
                 <a
-                  href="https://www.linkedin.com/in/prashanna-sathiyamoorthy-194704153/"
+                  href="https://www.linkedin.com/in/ananda-dimmas-budiarto-75232b225/"
                   target="_blank"
                   className="home__social-icon"
                 >
                   <i className="uil uil-linkedin-alt" />
                 </a>
-                <a
+                {/* <a
                   href="https://twitter.com/prashanna01"
                   target="_blank"
                   className="home__social-icon"
                 >
                   <i className="uil uil-twitter-alt" />
-                </a>
+                </a> */}
                 <a
-                  href="https://www.github.com"
+                  href="https://github.com/dimmas893"
                   target="_blank"
                   className="home__social-icon"
                 >
@@ -123,17 +123,16 @@ export default function Home() {
                     <image
                       className="home__blob-img"
                       x=""
-                      xlinkHref="packages/images/pras-1.jpeg"
+                      xlinkHref="packages/images/aku.jpeg"
                     />
                   </g>
                 </svg>
               </div>
               <div className="home__data">
-                <h1 className="home__title">Hi, I am Prashanna</h1>
-                <h3 className="home__subtitle">Data Analyst</h3>
+                <h1 className="home__title">Hi, I'am Ananda Dimmas Budiarto</h1>
+                <h3 className="home__subtitle">Fullstack Developer</h3>
                 <p className="home__description">
-                  High level experience in data analitical knowledge and digital
-                  banking with quality work.
+                  High level experience in both front-end and back-end web development, creating robust and scalable applications with quality work.
                 </p>
                 <a href="#contact" className="button button--flex home__button">
                   Contact Me
@@ -155,12 +154,10 @@ export default function Home() {
           <h2 className="section__title">About Me</h2>
           <span className="section__subtitle">My Introduction</span>
           <div className="about__container container grid">
-            <img src="packages/images/pras-2.jpeg" alt="" className="about__img" />
+            <img src="/packages/images/pras-2.jpeg" alt="" className="about__img" />
             <div className="about__data">
               <p className="about__description">
-                Data analyst, with extensive knowledge and years of experience,
-                working in Digital banking technologies and other data analitical
-                tools, delivering quality work.
+                Fullstack Developer with extensive knowledge and years of experience in developing and maintaining both front-end and back-end systems. Skilled in a wide range of technologies and tools, delivering high-quality, efficient, and scalable solutions.
               </p>
               <div className="about__info">
                 <div>
@@ -176,11 +173,9 @@ export default function Home() {
                   </span>
                 </div>
                 <div>
-                  <span className="about__info-title">02+</span>
+                  <span className="about__info-title">05+</span>
                   <span className="about__info-name">
-                    companies
-                    <br />
-                    worked
+                    Companies <br /> worked
                   </span>
                 </div>
               </div>
@@ -193,6 +188,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+
         {/*==================== SKILLS ====================*/}
         <section className="skills section" id="skills">
           <h2 className="section__title">Skills</h2>
@@ -862,21 +858,21 @@ export default function Home() {
                 <i className="uil uil-phone-alt contact__icon" />
                 <div>
                   <h3 className="contact__title">Call me</h3>
-                  <span className="contatc__subtitle">(+94) 755422421</span>
+                  <span className="contatc__subtitle">(+62) 81392396892</span>
                 </div>
               </div>
               <div className="contact__information">
                 <i className="uil uil-envelope contact__icon" />
                 <div>
                   <h3 className="contact__title">E-mail</h3>
-                  <span className="contatc__subtitle">Prashanna01@gmail.com</span>
+                  <span className="contatc__subtitle">anandadimmas1204@gmail.com</span>
                 </div>
               </div>
               <div className="contact__information">
                 <i className="uil uil-map-marker contact__icon" />
                 <div>
                   <h3 className="contact__title">Location</h3>
-                  <span className="contatc__subtitle">Kandy, Sri Lanka</span>
+                  <span className="contatc__subtitle">Blora, Jawa Tenga</span>
                 </div>
               </div>
             </div>
@@ -929,8 +925,8 @@ export default function Home() {
         <div className="footer__bg">
           <div className="footer__container container grid">
             <div>
-              <h1 className="footer__title">Prashanna Sathiyamoorthy</h1>
-              <span className="footer__subtitle">Data Analyst</span>
+              <h1 className="footer__title">Ananda Dimmas Budiarto</h1>
+              <span className="footer__subtitle">Fullstack Developer</span>
             </div>
             <ul className="footer__links">
               <li>
@@ -950,30 +946,30 @@ export default function Home() {
               </li>
             </ul>
             <div className="footer__socials">
-              <a
+              {/* <a
                 href='https://www.facebook.com/prashanna.drashan"'
                 target="_blank"
                 className="footer__social"
               >
                 <i className="uil uil-facebook" />
-              </a>
+              </a> */}
               <a
-                href="https://www.instagram.com/prashanna01/"
+                href="https://www.instagram.com/sebelumcahaaya/"
                 target="_blank"
                 className="footer__social"
               >
                 <i className="uil uil-instagram" />
               </a>
-              <a
+              {/* <a
                 href="https://twitter.com/prashanna01"
                 target="_blank"
                 className="footer__social"
               >
                 <i className="uil uil-twitter-alt" />
-              </a>
+              </a> */}
             </div>
           </div>
-          <p className="footer__copy">© Ratheshan03. All rights reserved.</p>
+          <p className="footer__copy">© Ananda Dimmas Budiarto. All rights reserved.</p>
         </div>
       </footer>
       {/*==================== SCROLL TOP ====================*/}
