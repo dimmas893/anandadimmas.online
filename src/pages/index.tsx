@@ -154,7 +154,7 @@ export default function Home() {
           <h2 className="section__title">About Me</h2>
           <span className="section__subtitle">My Introduction</span>
           <div className="about__container container grid">
-            <img src="/packages/images/pras-2.jpeg" alt="" className="about__img" />
+            <img src="/packages/images/aku2.jpg" alt="" className="about__img" />
             <div className="about__data">
               <p className="about__description">
                 Fullstack Developer with extensive knowledge and years of experience in developing and maintaining both front-end and back-end systems. Skilled in a wide range of technologies and tools, delivering high-quality, efficient, and scalable solutions.
@@ -200,7 +200,7 @@ export default function Home() {
                 <div className="skills__header">
                   <i className="uil uil-analytics skills__icon" />
                   <div>
-                    <h1 className="skills__title">Data Analyst</h1>
+                    <h1 className="skills__title">Back End Developer</h1>
                     <span className="skills__subtitle">More than 2 years</span>
                   </div>
                   <i className="uil uil-angle-down skills__arrow" />
@@ -208,26 +208,26 @@ export default function Home() {
                 <div className="skills__list grid">
                   <div className="skills__data">
                     <div className="skills__titles">
-                      <h3 className="skills__name">Python</h3>
-                      <span className="skills__number">60%</span>
+                      <h3 className="skills__name">PHP</h3>
+                      <span className="skills__number">80%</span>
                     </div>
                     <div className="skills__bar">
-                      <span className="skills__percentage skills__python" />
+                      <span className="skills__percentage skills__php" />
                     </div>
                   </div>
                   <div className="skills__data">
                     <div className="skills__titles">
-                      <h3 className="skills__name">Tableau</h3>
-                      <span className="skills__number">70%</span>
+                      <h3 className="skills__name">Laravel</h3>
+                      <span className="skills__number">80%</span>
                     </div>
                     <div className="skills__bar">
-                      <span className="skills__percentage skills__tab" />
+                      <span className="skills__percentage skills__laravel" />
                     </div>
                   </div>
                   <div className="skills__data">
                     <div className="skills__titles">
                       <h3 className="skills__name">SQL</h3>
-                      <span className="skills__number">50%</span>
+                      <span className="skills__number">80%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__sql" />
@@ -235,73 +235,77 @@ export default function Home() {
                   </div>
                   <div className="skills__data">
                     <div className="skills__titles">
-                      <h3 className="skills__name">Google Suite</h3>
-                      <span className="skills__number">70%</span>
+                      <h3 className="skills__name">Node.js</h3>
+                      <span className="skills__number">80%</span>
                     </div>
                     <div className="skills__bar">
-                      <span className="skills__percentage skills__google" />
+                      <span className="skills__percentage skills__nodejs" />
+                    </div>
+                  </div>
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">Express.js</h3>
+                      <span className="skills__number">80%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__expressjs" />
+                    </div>
+                  </div>
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">Python</h3>
+                      <span className="skills__number">20%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__python" />
+                    </div>
+                  </div>
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">Django</h3>
+                      <span className="skills__number">30%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__django" />
+                    </div>
+                  </div>
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">Java</h3>
+                      <span className="skills__number">50%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__java" />
+                    </div>
+                  </div>
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">RESTful API</h3>
+                      <span className="skills__number">85%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__restapi" />
+                    </div>
+                  </div>
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">Docker</h3>
+                      <span className="skills__number">75%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__docker" />
                     </div>
                   </div>
                 </div>
               </div>
-              {/*==================== SKILLS 2 ====================*/}
-              <div className="skills__content skills__close">
-                <div className="skills__header">
-                  <i className="uil uil-money-bill skills__icon" />
-                  <div>
-                    <h1 className="skills__title">Banker</h1>
-                    <span className="skills__subtitle">More than 3 years</span>
-                  </div>
-                  <i className="uil uil-angle-down skills__arrow" />
-                </div>
-                <div className="skills__list grid">
-                  <div className="skills__data">
-                    <div className="skills__titles">
-                      <h3 className="skills__name">Digital Banking</h3>
-                      <span className="skills__number">80%</span>
-                    </div>
-                    <div className="skills__bar">
-                      <span className="skills__percentage skills__bank" />
-                    </div>
-                  </div>
-                  <div className="skills__data">
-                    <div className="skills__titles">
-                      <h3 className="skills__name">Counters</h3>
-                      <span className="skills__number">80%</span>
-                    </div>
-                    <div className="skills__bar">
-                      <span className="skills__percentage skills__counter" />
-                    </div>
-                  </div>
-                  <div className="skills__data">
-                    <div className="skills__titles">
-                      <h3 className="skills__name">Google suite</h3>
-                      <span className="skills__number">70%</span>
-                    </div>
-                    <div className="skills__bar">
-                      <span className="skills__percentage skills__google" />
-                    </div>
-                  </div>
-                  <div className="skills__data">
-                    <div className="skills__titles">
-                      <h3 className="skills__name">MS Office</h3>
-                      <span className="skills__number">90%</span>
-                    </div>
-                    <div className="skills__bar">
-                      <span className="skills__percentage skills__office" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
+
               {/*==================== SKILLS 3 ====================*/}
               <div className="skills__content skills__close">
                 <div className="skills__header">
                   <i className="uil uil-brackets-curly skills__icon" />
                   <div>
-                    <h1 className="skills__title">Web Developer</h1>
-                    <span className="skills__subtitle">More than 3 years</span>
+                    <h1 className="skills__title">Front End Developer</h1>
+                    <span className="skills__subtitle">More than 2 years</span>
                   </div>
                   <i className="uil uil-angle-down skills__arrow" />
                 </div>
@@ -327,7 +331,7 @@ export default function Home() {
                   <div className="skills__data">
                     <div className="skills__titles">
                       <h3 className="skills__name">JavaScript</h3>
-                      <span className="skills__number">60%</span>
+                      <span className="skills__number">75%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__js" />
@@ -335,11 +339,131 @@ export default function Home() {
                   </div>
                   <div className="skills__data">
                     <div className="skills__titles">
-                      <h3 className="skills__name">WordPress</h3>
+                      <h3 className="skills__name">React Js</h3>
                       <span className="skills__number">70%</span>
                     </div>
                     <div className="skills__bar">
-                      <span className="skills__percentage skills__wordpress" />
+                      <span className="skills__percentage skills__react" />
+                    </div>
+                  </div>
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">Next Js</h3>
+                      <span className="skills__number">70%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__react" />
+                    </div>
+                  </div>
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">Vue.js</h3>
+                      <span className="skills__number">75%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__vuejs" />
+                    </div>
+                  </div>
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">Bootstrap</h3>
+                      <span className="skills__number">80%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__bootstrap" />
+                    </div>
+                  </div>
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">Tailwind CSS</h3>
+                      <span className="skills__number">30%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__tailwind" />
+                    </div>
+                  </div>
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">TypeScript</h3>
+                      <span className="skills__number">75%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__typescript" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="skills__content skills__close">
+                <div className="skills__header">
+                  <i className="uil uil-money-bill skills__icon" />
+                  <div>
+                    <h1 className="skills__title">DevOps</h1>
+                    <span className="skills__subtitle">More than 2 years</span>
+                  </div>
+                  <i className="uil uil-angle-down skills__arrow" />
+                </div>
+                <div className="skills__list grid">
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">CI/CD</h3>
+                      <span className="skills__number">80%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__cicd" />
+                    </div>
+                  </div>
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">Docker</h3>
+                      <span className="skills__number">75%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__docker" />
+                    </div>
+                  </div>
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">Kubernetes</h3>
+                      <span className="skills__number">70%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__kubernetes" />
+                    </div>
+                  </div>
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">AWS</h3>
+                      <span className="skills__number">65%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__aws" />
+                    </div>
+                  </div>
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">Jenkins</h3>
+                      <span className="skills__number">80%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__jenkins" />
+                    </div>
+                  </div>
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">Ansible</h3>
+                      <span className="skills__number">70%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__ansible" />
+                    </div>
+                  </div>
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">Terraform</h3>
+                      <span className="skills__number">65%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__terraform" />
                     </div>
                   </div>
                 </div>
@@ -347,7 +471,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/*==================== QUALIFICATION ====================*/}
+
         <section className="qualification__section">
           <h2 className="section__title">Qualification</h2>
           <span className="section__subtitle">My personal journey</span>
@@ -369,22 +493,20 @@ export default function Home() {
               </div>
             </div>
             <div className="qualification__sections">
-              {/*==================== QUALIFICATION CONTENT 1 ====================*/}
               <div
                 className="qualification__content qualification__active"
                 data-content=""
                 id="education"
               >
-                {/*==================== QUALIFICATION 1 ====================*/}
                 <div className="qualification__data">
                   <div>
-                    <h3 className="qualification__title">Diploma in English </h3>
+                    <h3 className="qualification__title">D3 Teknik Komputer</h3>
                     <span className="qualification__subtitle">
-                      British Council, Kandy
+                      Politeknik Tugu Jakarta
                     </span>
                     <div className="qualification__calendar">
                       <i className="uil uil-calendar-alt" />
-                      2011 - 2012
+                      2019 - 2022
                     </div>
                   </div>
                   <div>
@@ -392,7 +514,6 @@ export default function Home() {
                     <span className="qualification__line" />
                   </div>
                 </div>
-                {/*==================== QUALIFICATION 2 ====================*/}
                 <div className="qualification__data">
                   <div />
                   <div>
@@ -400,52 +521,13 @@ export default function Home() {
                     <span className="qualification__line" />
                   </div>
                   <div>
-                    <h3 className="qualification__title">GCE Adavance Level</h3>
+                    <h3 className="qualification__title">S1 Teknik Informatika</h3>
                     <span className="qualification__subtitle">
-                      {/* St.Anthony's College, Kandy */}
+                      Universitas Nusa Mandiri
                     </span>
                     <div className="qualification__calendar">
                       <i className="uil uil-calendar-alt" />
-                      2012 - 2014
-                    </div>
-                  </div>
-                </div>
-                {/*==================== QUALIFICATION 3 ====================*/}
-                <div className="qualification__data">
-                  <div>
-                    <h3 className="qualification__title">
-                      BSc Management Information System
-                    </h3>
-                    <span className="qualification__subtitle">
-                      NSBM Green University
-                    </span>
-                    <div className="qualification__calendar">
-                      <i className="uil uil-calendar-alt" />
-                      2015 - 2018
-                    </div>
-                  </div>
-                  <div>
-                    <span className="qualification__rounder" />
-                    <span className="qualification__line" />
-                  </div>
-                </div>
-                {/*==================== QUALIFICATION 4 ====================*/}
-                <div className="qualification__data">
-                  <div />
-                  <div>
-                    <span className="qualification__rounder" />
-                    {/* <span class="qualification__line"></span> */}
-                  </div>
-                  <div>
-                    <h3 className="qualification__title">
-                      Data Analyst Professional Certification
-                    </h3>
-                    <span className="qualification__subtitle">
-                      Google | Coursera - Online
-                    </span>
-                    <div className="qualification__calendar">
-                      <i className="uil uil-calendar-alt" />
-                      2021
+                      2023 - not graduated yet
                     </div>
                   </div>
                 </div>
@@ -455,15 +537,13 @@ export default function Home() {
                 {/*==================== QUALIFICATION 1 ====================*/}
                 <div className="qualification__data">
                   <div>
-                    <h3 className="qualification__title">
-                      Trainee Banking Assistant
-                    </h3>
+                    <h3 className="qualification__title">Full Stack Web Developer</h3>
                     <span className="qualification__subtitle">
-                      DFCC Head Office - Colombo
+                      CV. Cyber Olympus
                     </span>
                     <div className="qualification__calendar">
                       <i className="uil uil-calendar-alt" />
-                      2017 - 2019
+                      1 April 2022 - 30 June 2022
                     </div>
                   </div>
                   <div>
@@ -479,13 +559,15 @@ export default function Home() {
                     <span className="qualification__line" />
                   </div>
                   <div>
-                    <h3 className="qualification__title">Banking Assistant</h3>
+                    <h3 className="qualification__title">
+                      Full Stack Web Developer And Back End Developer
+                    </h3>
                     <span className="qualification__subtitle">
-                      DFCC Head Office - Colombo
+                      PT. Bilindo Info Sistema
                     </span>
                     <div className="qualification__calendar">
                       <i className="uil uil-calendar-alt" />
-                      2019 - 2020
+                      1 August 2022 - 31 August 2023
                     </div>
                   </div>
                 </div>
@@ -493,14 +575,14 @@ export default function Home() {
                 <div className="qualification__data">
                   <div>
                     <h3 className="qualification__title">
-                      Data Analyst - Digital banking
+                      Full Stack Web Developer And Devops
                     </h3>
                     <span className="qualification__subtitle">
-                      DFCC Head Office - Colombo
+                      PT Infrastruktur Telekomunikasi Indonesia (Telkominfra)
                     </span>
                     <div className="qualification__calendar">
                       <i className="uil uil-calendar-alt" />
-                      2020 - Present
+                      1 October 2023 - 31 March 2024
                     </div>
                   </div>
                   <div>
@@ -512,6 +594,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+
         {/*==================== SERVICES ====================*/}
         <section className="services section" id="services">
           <h2 className="section__title">Services</h2>
@@ -522,7 +606,7 @@ export default function Home() {
               <div>
                 <i className="uil uil-analytics skills__icon" />
                 <h3 className="services__title">
-                  Data Analyst
+                  Back End Developer
                   <br />
                 </h3>
               </div>
@@ -533,29 +617,28 @@ export default function Home() {
               <div className="services__modal">
                 <div className="services__modal-content">
                   <h4 className="services__modal-title">
-                    Data Analyst <br />
+                    Back End Developer <br />
                   </h4>
                   <i className="uil uil-times services__modal-close" />
                   <ul className="services__modal-services grid">
                     <li className="services__modal-service">
                       <i className="uil uil-check-circle services__modal-icon" />
-                      <p>I analize data systems.</p>
+                      <p>Develop and maintain server-side logic.</p>
                     </li>
                     <li className="services__modal-service">
                       <i className="uil uil-check-circle services__modal-icon" />
-                      <p>Automating information retrieval.</p>
+                      <p>Build and manage databases and servers.</p>
                     </li>
                     <li className="services__modal-service">
                       <i className="uil uil-check-circle services__modal-icon" />
                       <p>
-                        Systematically applying statistical and logical techniques.
+                        Ensure high performance and responsiveness to requests from the front-end.
                       </p>
                     </li>
                     <li className="services__modal-service">
                       <i className="uil uil-check-circle services__modal-icon" />
                       <p>
-                        Visualizing graphs, charts and preparing reports and
-                        dashboards.
+                        Collaborate with front-end developers to integrate user-facing elements.
                       </p>
                     </li>
                   </ul>
@@ -567,7 +650,7 @@ export default function Home() {
               <div>
                 <i className="uil uil-money-bill skills__icon" />
                 <h3 className="services__title">
-                  Banker
+                  Front End Developer
                   <br />{" "}
                 </h3>
               </div>
@@ -578,33 +661,29 @@ export default function Home() {
               <div className="services__modal">
                 <div className="services__modal-content">
                   <h4 className="services__modal-title">
-                    Banker
+                    Front End Developer
                     <br />
                   </h4>
                   <i className="uil uil-times services__modal-close" />
                   <ul className="services__modal-services grid">
                     <li className="services__modal-service">
                       <i className="uil uil-check-circle services__modal-icon" />
+                      <p>Design and implement user interfaces.</p>
+                    </li>
+                    <li className="services__modal-service">
+                      <i className="uil uil-check-circle services__modal-icon" />
+                      <p>Develop responsive web pages.</p>
+                    </li>
+                    <li className="services__modal-service">
+                      <i className="uil uil-check-circle services__modal-icon" />
                       <p>
-                        Assiting both personal and commercial clients with financial
-                        questions and needs.
+                        Ensure cross-browser compatibility and performance.
                       </p>
                     </li>
                     <li className="services__modal-service">
                       <i className="uil uil-check-circle services__modal-icon" />
-                      <p>Maintain customer acoounts and help resolve disputes.</p>
-                    </li>
-                    <li className="services__modal-service">
-                      <i className="uil uil-check-circle services__modal-icon" />
                       <p>
-                        Refer customers to loan officers or other financial
-                        specialist.
-                      </p>
-                    </li>
-                    <li className="services__modal-service">
-                      <i className="uil uil-check-circle services__modal-icon" />
-                      <p>
-                        Systematically applying statistical and logical techniques.
+                        Work with back-end developers to integrate APIs and services.
                       </p>
                     </li>
                   </ul>
@@ -616,7 +695,7 @@ export default function Home() {
               <div>
                 <i className="uil uil-arrow services__icon" />
                 <h3 className="services__title">
-                  Web Developer
+                  DevOps
                   <br />
                 </h3>
               </div>
@@ -627,26 +706,26 @@ export default function Home() {
               <div className="services__modal">
                 <div className="services__modal-content">
                   <h4 className="services__modal-title">
-                    Web Developer
+                    DevOps
                     <br />
                   </h4>
                   <i className="uil uil-times services__modal-close" />
                   <ul className="services__modal-services grid">
                     <li className="services__modal-service">
                       <i className="uil uil-check-circle services__modal-icon" />
-                      <p>I develop the user interface.</p>
+                      <p>Implement CI/CD pipelines for automated testing and deployment.</p>
                     </li>
                     <li className="services__modal-service">
                       <i className="uil uil-check-circle services__modal-icon" />
-                      <p>Webpage development.</p>
+                      <p>Manage cloud infrastructure and services.</p>
                     </li>
                     <li className="services__modal-service">
                       <i className="uil uil-check-circle services__modal-icon" />
-                      <p>I create Ux element interactions.</p>
+                      <p>Monitor and ensure the reliability of systems and applications.</p>
                     </li>
                     <li className="services__modal-service">
                       <i className="uil uil-check-circle services__modal-icon" />
-                      <p>Well trained in WordPress.</p>
+                      <p>Automate processes to improve efficiency and reduce errors.</p>
                     </li>
                   </ul>
                 </div>
@@ -654,6 +733,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+
         {/*==================== PORTFOLIO ====================*/}
         <section className="portfolio section" id="portfolio">
           <h2 className="section__title">Portfolio</h2>

@@ -520,6 +520,31 @@ img {
   width: 90%;
 }
 
+.skills__cicd {
+  width: 80%;
+}
+
+.skills__kubernetes {
+  width: 70%;
+}
+
+.skills__aws {
+  width: 65%;
+}
+
+
+.skills__jenkins {
+  width: 80%;
+}
+
+.skills__ansible {
+  width: 70%;
+}
+
+.skills__terraform {
+  width: 65%;
+}
+
 .skills__css {
   width: 80%;
 }
@@ -541,7 +566,62 @@ img {
 }
 
 .skills__sql {
+  width: 80%;
+}
+
+.skills__php {
+  width: 80%;
+}
+
+.skills__laravel {
+  width: 80%;
+}
+
+.skills__nodejs {
+  width: 80%;
+}
+.skills__expressjs {
+  width: 80%;
+}
+
+.skills__java {
   width: 50%;
+}
+.skills__django {
+  width: 30%;
+}
+.skills__python {
+  width: 20%;
+}
+
+.skills__restapi {
+  width: 85%;
+}
+.skills__docker {
+  width: 75%;
+}
+
+.skills__typescript {
+  width: 75%;
+}
+
+.skills__tailwind {
+  width: 30%;
+}
+
+.skills__bootstrap {
+  width: 80%;
+}
+
+.skills__vuejs {
+  width: 75%;
+}
+.skills__react {
+  width: 70%;
+}
+
+.skills__js {
+  width: 75%;
 }
 
 .skills__google {
