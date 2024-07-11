@@ -860,6 +860,7 @@ img {
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
+  color: var(--first-color);
   content: "";
 }
 
@@ -870,6 +871,7 @@ img {
 
 .swiper-button-prev {
   left: -0.5rem;
+  color: var(--first-color);  
 }
 
 .swiper-button-next {

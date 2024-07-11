@@ -825,10 +825,10 @@ export default function Home() {
             </div>
             {/* add arrows*/}
             <div className="swiper-button-next">
-              <i className="uil uil-angle-right-b swiper-portfolio-icon" />
+              <i className="" />
             </div>
             <div className="swiper-button-prev">
-              <i className="uil uil-angle-left-b swiper-portfolio-icon" />
+              <i className="" />
             </div>
             {/* Add Pagination */}
             <div className="swiper-pagination" />
@@ -852,13 +852,11 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/*==================== TESTIMONIAL ====================*/}
-        <section className="testimonial section">
+        {/* <section className="testimonial section">
           <h2 className="section__title">Testimonials</h2>
           <span className="section__subtitle">My client saying</span>
           <div className="testimonial__container container swiper-container">
             <div className="swiper-wrapper">
-              {/*==================== TESTIMONIAL 1 ====================*/}
               <div className="testimonial__content swiper-slide">
                 <div className="testimonial__data">
                   <div className="testimonial__header">
@@ -885,7 +883,6 @@ export default function Home() {
                   possible quality and attention and support 24 hours a day.
                 </p>
               </div>
-              {/*==================== TESTIMONIAL 2 ====================*/}
               <div className="testimonial__content swiper-slide">
                 <div className="testimonial__data">
                   <div className="testimonial__header">
@@ -912,7 +909,6 @@ export default function Home() {
                   possible quality and attention and support 24 hours a day.
                 </p>
               </div>
-              {/*==================== TESTIMONIAL 3 ====================*/}
               <div className="testimonial__content swiper-slide">
                 <div className="testimonial__data">
                   <div className="testimonial__header">
@@ -940,10 +936,9 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            {/*Add pagination*/}
             <div className="swiper-pagination swiper-pagination-testimonial" />
           </div>
-        </section>
+        </section> */}
         {/*==================== CONTACT ME ====================*/}
         <section className="contact section" id="contact">
           <h2 className="section__title">Contact me</h2>
@@ -1072,8 +1067,6 @@ export default function Home() {
       <a href="#" className="scrollup" id="scroll-up">
         <i className="uil uil-arrow-up scrollup__icon" />
       </a>
-
     </>
-
   );
 }
