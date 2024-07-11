@@ -129,7 +129,7 @@ export default function Home() {
                 </svg>
               </div>
               <div className="home__data">
-                <h1 className="home__title">Hi, I'am Ananda Dimmas Budiarto</h1>
+                <h1 className="home__title">Hi, I am Ananda Dimmas Budiarto</h1>
                 <h3 className="home__subtitle">Fullstack Developer</h3>
                 <p className="home__description">
                   High level experience in both front-end and back-end web development, creating robust and scalable applications with quality work.
