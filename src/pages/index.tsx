@@ -19,7 +19,7 @@ export default function Home() {
         <meta name="DC.format" content="text/html" />
         <meta name="DC.identifier" content="https://anandadimmas.online" />
         <meta name="DC.language" content="id" />
-
+        <meta name="google-site-verification" content="36eu7KctsJZNMVI-kV0XTCr_IylaXs4E60VsHjWek1U" />
         {/* <!-- Additional Meta Tags for SEO --> */}
         <meta name="description" content="Ananda Dimmas Budiarto, a Fullstack Developer And Devops with high-level experience in both front-end and back-end web development, creating robust and scalable applications with quality work." />
         <meta name="keywords" content="Ketipung, Ananda Dimmas Budiarto, Fullstack Developer, Ananda Dimmas Budiarto, Ananda Dimmas Budiarto Fullstack Developer, Ananda Dimmas Budiarto Frontend Developer, Ananda Dimmas Budiarto Backend Developer, Ananda Dimmas Budiarto Pengembangan Web, Ananda Dimmas Budiarto SMAN 1 JEPON, Programmer Blora, Programmer Jiken, Programmer Cepu, Programmer Jawa Tengah, Programmer Semarang, Fullstack Developer Blora, Fullstack Developer Cepu, Fullstack Developer Semarang, Fullstack Developer Jawa Tengah, Fullstack Developer Jiken, Devops Blora, Devops Cepu, Devops Semarang, Devops Jawa Tengah, Devops Jiken, Web Developer, Web Developer Blora, Web Developer Cepu, Web Developer Semarang, Web Developer Jawa Tengah, Web Developer Jiken" />

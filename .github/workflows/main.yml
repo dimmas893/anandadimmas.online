@@ -1,32 +1,32 @@
-name: 🚀 Deploy website on push
+# name: 🚀 Deploy website on push
 
-on:
-  push:
-    branches:
-      - main
+# on:
+#   push:
+#     branches:
+#       - main
 
-jobs:
-  web-deploy:
-    name: 🎉 Auto Deploy
-    runs-on: ubuntu-latest
+# jobs:
+#   web-deploy:
+#     name: 🎉 Auto Deploy
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: 🚚 Get latest code
-        uses: actions/checkout@v2
+#     steps:
+#       - name: 🚚 Get latest code
+#         uses: actions/checkout@v2
 
-      - name: 🏗️ Set up environment
-        run: echo "APP_ENV=production" >> $GITHUB_ENV
+#       - name: 🏗️ Set up environment
+#         run: echo "APP_ENV=production" >> $GITHUB_ENV
 
-      - name: 🏗️ Build project
-        run: |
-          npm install
-          npm run build
+#       - name: 🏗️ Build project
+#         run: |
+#           npm install
+#           npm run build
 
-      - name: 🔑 Add SSH key
-        uses: webfactory/ssh-agent@v0.5.3
-        with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+#       - name: 🔑 Add SSH key
+#         uses: webfactory/ssh-agent@v0.5.3
+#         with:
+#           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      - name: 📂 Sync files via SSH
-        run: |
-          rsync -avz -e "ssh -o StrictHostKeyChecking=no" --delete out/ root@202.10.36.182:/var/www/html
+#       - name: 📂 Sync files via SSH
+#         run: |
+#           rsync -avz -e "ssh -o StrictHostKeyChecking=no" --delete out/ root@202.10.36.182:/var/www/html
