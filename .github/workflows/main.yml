@@ -28,8 +28,8 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.2.0
       with:
         server: ftp.anandadimmas.com
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
+        username: anandadimmas.online@anandadimmas.online
+        password: ftp.anandadimmas.com
         local-dir: out/
         git-ftp-args: --insecure
         dangerous-clean-slate: true # Use this option with caution
