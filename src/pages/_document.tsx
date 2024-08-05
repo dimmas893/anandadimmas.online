@@ -28,7 +28,7 @@ export default function Document() {
         {/* <!-- Open Graph Meta Tags for social sharing --> */}
         <meta property="og:title" content="Ananda Dimmas Budiarto - Fullstack Developer dan Devops" />
         <meta property="og:description" content="Ananda Dimmas Budiarto, a Fullstack Developer And Devops with high-level experience in both front-end and back-end web development, creating robust and scalable applications with quality work." />
-        <meta property="og:image" content="https://anandadimmas.online/packages/images/aku.jpeg" />
+        <meta property="og:image" content="https://anandadimmas.online/packages/images/icon2.png" />
         <meta property="og:url" content="https://anandadimmas.online" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="id_ID" />
