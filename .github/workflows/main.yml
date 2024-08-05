@@ -27,7 +27,9 @@ jobs:
       - name: Deploy to FTP
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          server: ftp.anandadimmas.com
+          username: anandadimmas.online@anandadimmas.online
+          password: ftp.anandadimmas.com
           local-dir: out/
+          git-ftp-args: --insecure
+      
