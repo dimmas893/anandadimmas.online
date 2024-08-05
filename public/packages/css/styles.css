@@ -308,7 +308,7 @@ img {
 }
 
 .home__blob-img {
-  width: 220px;
+  width: 201px;
 }
 
 .home__data {
@@ -599,6 +599,11 @@ img {
 }
 .skills__docker {
   width: 75%;
+}
+
+
+.sembilanpuluh {
+  width: 90%;
 }
 
 .skills__typescript {

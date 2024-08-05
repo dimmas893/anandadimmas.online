@@ -41,6 +41,8 @@ export default function Document() {
         <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1602384184911093760/-FuyNI4J_400x400.jpg" />
         <meta name="twitter:site" content="@AnandaDimmas" />
         <meta name="twitter:creator" content="@AnandaDimmas" />
+
+        <link rel="icon" href="https://anandadimmas.online/packages/images/icon2.png" />
       </Head>
       <body>
         <Main />

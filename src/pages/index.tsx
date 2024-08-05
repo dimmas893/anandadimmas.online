@@ -30,7 +30,7 @@ export default function Home() {
         {/* <!-- Open Graph Meta Tags for social sharing --> */}
         <meta property="og:title" content="Ananda Dimmas Budiarto - Fullstack Developer dan Devops" />
         <meta property="og:description" content="Ananda Dimmas Budiarto, a Fullstack Developer And Devops with high-level experience in both front-end and back-end web development, creating robust and scalable applications with quality work." />
-        <meta property="og:image" content="https://anandadimmas.online/packages/images/aku.jpeg" />
+        <meta property="og:image" content="https://anandadimmas.online/packages/images/icon2.png" />
         <meta property="og:url" content="https://anandadimmas.online" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="id_ID" />
@@ -44,7 +44,7 @@ export default function Home() {
         <meta name="twitter:site" content="@AnandaDimmas" />
         <meta name="twitter:creator" content="@AnandaDimmas" />
 
-        <link rel="icon" href="https://anandadimmas.online/packages/images/icon.png" />
+        <link rel="icon" href="https://anandadimmas.online/packages/images/icon2.png" />
 
         {/*==================== UNICONS ====================*/}
         <link
@@ -162,10 +162,14 @@ export default function Home() {
                                 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                                 -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
                     />
+
                     <image
                       className="home__blob-img"
                       x=""
-                      xlinkHref="packages/images/aku.jpeg"
+                      y="-25"
+                      width="250"
+                      height="250"
+                      xlinkHref="/packages/images/foto.png"
                     />
                   </g>
                 </svg>
@@ -304,15 +308,6 @@ export default function Home() {
                   </div>
                   <div className="skills__data">
                     <div className="skills__titles">
-                      <h3 className="skills__name">Django</h3>
-                      <span className="skills__number">30%</span>
-                    </div>
-                    <div className="skills__bar">
-                      <span className="skills__percentage skills__django" />
-                    </div>
-                  </div>
-                  <div className="skills__data">
-                    <div className="skills__titles">
                       <h3 className="skills__name">Java</h3>
                       <span className="skills__number">50%</span>
                     </div>
@@ -331,7 +326,25 @@ export default function Home() {
                   </div>
                   <div className="skills__data">
                     <div className="skills__titles">
-                      <h3 className="skills__name">Docker</h3>
+                      <h3 className="skills__name">Golang</h3>
+                      <span className="skills__number">75%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__docker" />
+                    </div>
+                  </div>
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">Gin</h3>
+                      <span className="skills__number">75%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage skills__docker" />
+                    </div>
+                  </div>
+                  <div className="skills__data">
+                    <div className="skills__titles">
+                      <h3 className="skills__name">Gorm</h3>
                       <span className="skills__number">75%</span>
                     </div>
                     <div className="skills__bar">
@@ -447,7 +460,7 @@ export default function Home() {
                 <div className="skills__list grid">
                   <div className="skills__data">
                     <div className="skills__titles">
-                      <h3 className="skills__name">CI/CD</h3>
+                      <h3 className="skills__name"> Gitlab CE CI/CD</h3>
                       <span className="skills__number">80%</span>
                     </div>
                     <div className="skills__bar">
@@ -465,6 +478,15 @@ export default function Home() {
                   </div>
                   <div className="skills__data">
                     <div className="skills__titles">
+                      <h3 className="skills__name">Github Actions</h3>
+                      <span className="skills__number">90%</span>
+                    </div>
+                    <div className="skills__bar">
+                      <span className="skills__percentage sembilanpuluh" />
+                    </div>
+                  </div>
+                  <div className="skills__data">
+                    <div className="skills__titles">
                       <h3 className="skills__name">Kubernetes</h3>
                       <span className="skills__number">70%</span>
                     </div>
@@ -474,38 +496,11 @@ export default function Home() {
                   </div>
                   <div className="skills__data">
                     <div className="skills__titles">
-                      <h3 className="skills__name">AWS</h3>
-                      <span className="skills__number">65%</span>
-                    </div>
-                    <div className="skills__bar">
-                      <span className="skills__percentage skills__aws" />
-                    </div>
-                  </div>
-                  <div className="skills__data">
-                    <div className="skills__titles">
                       <h3 className="skills__name">Jenkins</h3>
                       <span className="skills__number">80%</span>
                     </div>
                     <div className="skills__bar">
                       <span className="skills__percentage skills__jenkins" />
-                    </div>
-                  </div>
-                  <div className="skills__data">
-                    <div className="skills__titles">
-                      <h3 className="skills__name">Ansible</h3>
-                      <span className="skills__number">70%</span>
-                    </div>
-                    <div className="skills__bar">
-                      <span className="skills__percentage skills__ansible" />
-                    </div>
-                  </div>
-                  <div className="skills__data">
-                    <div className="skills__titles">
-                      <h3 className="skills__name">Terraform</h3>
-                      <span className="skills__number">65%</span>
-                    </div>
-                    <div className="skills__bar">
-                      <span className="skills__percentage skills__terraform" />
                     </div>
                   </div>
                 </div>
