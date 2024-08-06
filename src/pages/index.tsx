@@ -570,23 +570,6 @@ export default function Home() {
               </div>
               {/*==================== QUALIFICATION CONTENT 2 ====================*/}
               <div className="qualification__content" data-content="" id="work">
-                {/*==================== QUALIFICATION 1 ====================*/}
-                <div className="qualification__data">
-                  <div>
-                    <h3 className="qualification__title">Full Stack Web Developer</h3>
-                    <span className="qualification__subtitle">
-                      CV. Cyber Olympus
-                    </span>
-                    <div className="qualification__calendar">
-                      <i className="uil uil-calendar-alt" />
-                      1 April 2022 - 30 June 2022
-                    </div>
-                  </div>
-                  <div>
-                    <span className="qualification__rounder" />
-                    <span className="qualification__line" />
-                  </div>
-                </div>
                 {/*==================== QUALIFICATION 2 ====================*/}
                 <div className="qualification__data">
                   <div />
@@ -596,10 +579,10 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="qualification__title">
-                      Full Stack Web Developer And Back End Developer
+                      Full Stack Web Developer, Back End Developer and Devops
                     </h3>
                     <span className="qualification__subtitle">
-                      PT. Bilindo Info Sistema
+                      PT. BILINDO INFO SISTEMA
                     </span>
                     <div className="qualification__calendar">
                       <i className="uil uil-calendar-alt" />
@@ -611,14 +594,14 @@ export default function Home() {
                 <div className="qualification__data">
                   <div>
                     <h3 className="qualification__title">
-                      Full Stack Web Developer And Devops
+                      Back End Developer and Devops
                     </h3>
                     <span className="qualification__subtitle">
-                      PT Infrastruktur Telekomunikasi Indonesia (Telkominfra)
+                      PT DIBUILTADI TEKNOLOGI KREATIF
                     </span>
                     <div className="qualification__calendar">
                       <i className="uil uil-calendar-alt" />
-                      1 October 2023 - 31 March 2024
+                      July 2023 - June 2024
                     </div>
                   </div>
                   <div>
