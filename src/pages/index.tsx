@@ -966,7 +966,7 @@ export default function Home() {
                 <i className="uil uil-map-marker contact__icon" />
                 <div>
                   <h3 className="contact__title">Location</h3>
-                  <span className="contatc__subtitle">Blora, Jawa Tenga</span>
+                  <span className="contatc__subtitle">Blora, Jawa Tengah</span>
                 </div>
               </div>
             </div>
