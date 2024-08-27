@@ -6,14 +6,14 @@ export default function Home() {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Ananda Dimmas Budiarto - Fullstack Developer dan Devops</title>
+        <title>ANANDA DIMMAS BUDIARTO - FULL STACK WEB DEVELOPER, BACK END DEVELOPER AND DEVOPS</title>
 
         {/* <!-- Dublin Core Metadata --> */}
-        <meta name="DC.title" content="Ananda Dimmas Budiarto - Fullstack Developer dan Devops" />
-        <meta name="DC.creator" content="Ananda Dimmas Budiarto" />
+        <meta name="DC.title" content="ANANDA DIMMAS BUDIARTO - FULL STACK WEB DEVELOPER, BACK END DEVELOPER AND DEVOPS" />
+        <meta name="DC.creator" content="ANANDA DIMMAS BUDIARTO" />
         <meta name="DC.subject" content="Fullstack Developer, DevOps, Pengembangan Web" />
-        <meta name="DC.description" content="Ananda Dimmas Budiarto, a Fullstack Developer And Devops with high-level experience in both front-end and back-end web development, creating robust and scalable applications with quality work." />
-        <meta name="DC.publisher" content="Ananda Dimmas Budiarto" />
+        <meta name="DC.description" content="ANANDA DIMMAS BUDIARTO, a Fullstack Developer And Devops with high-level experience in both front-end and back-end web development, creating robust and scalable applications with quality work." />
+        <meta name="DC.publisher" content="ANANDA DIMMAS BUDIARTO" />
         <meta name="DC.date" content="2024-07-15" />
         <meta name="DC.type" content="Text" />
         <meta name="DC.format" content="text/html" />
@@ -21,26 +21,26 @@ export default function Home() {
         <meta name="DC.language" content="id" />
         <meta name="google-site-verification" content="36eu7KctsJZNMVI-kV0XTCr_IylaXs4E60VsHjWek1U" />
         {/* <!-- Additional Meta Tags for SEO --> */}
-        <meta name="description" content="Ananda Dimmas Budiarto, a Fullstack Developer And Devops with high-level experience in both front-end and back-end web development, creating robust and scalable applications with quality work." />
-        <meta name="keywords" content="Ketipung, Ananda Dimmas Budiarto, Fullstack Developer, Ananda Dimmas Budiarto, Ananda Dimmas Budiarto Fullstack Developer, Ananda Dimmas Budiarto Frontend Developer, Ananda Dimmas Budiarto Backend Developer, Ananda Dimmas Budiarto Pengembangan Web, Ananda Dimmas Budiarto SMAN 1 JEPON, Programmer Blora, Programmer Jiken, Programmer Cepu, Programmer Jawa Tengah, Programmer Semarang, Fullstack Developer Blora, Fullstack Developer Cepu, Fullstack Developer Semarang, Fullstack Developer Jawa Tengah, Fullstack Developer Jiken, Devops Blora, Devops Cepu, Devops Semarang, Devops Jawa Tengah, Devops Jiken, Web Developer, Web Developer Blora, Web Developer Cepu, Web Developer Semarang, Web Developer Jawa Tengah, Web Developer Jiken" />
+        <meta name="description" content="ANANDA DIMMAS BUDIARTO, a Fullstack Developer And Devops with high-level experience in both front-end and back-end web development, creating robust and scalable applications with quality work." />
+        <meta name="keywords" content="Ketipung, ANANDA DIMMAS BUDIARTO, Fullstack Developer, ANANDA DIMMAS BUDIARTO, ANANDA DIMMAS BUDIARTO Fullstack Developer, ANANDA DIMMAS BUDIARTO Frontend Developer, ANANDA DIMMAS BUDIARTO Backend Developer, ANANDA DIMMAS BUDIARTO Pengembangan Web, ANANDA DIMMAS BUDIARTO SMAN 1 JEPON, Programmer Blora, Programmer Jiken, Programmer Cepu, Programmer Jawa Tengah, Programmer Semarang, Fullstack Developer Blora, Fullstack Developer Cepu, Fullstack Developer Semarang, Fullstack Developer Jawa Tengah, Fullstack Developer Jiken, Devops Blora, Devops Cepu, Devops Semarang, Devops Jawa Tengah, Devops Jiken, Web Developer, Web Developer Blora, Web Developer Cepu, Web Developer Semarang, Web Developer Jawa Tengah, Web Developer Jiken" />
         <meta name="robots" content="index, follow" />
-        <meta name="author" content="Ananda Dimmas Budiarto" />
+        <meta name="author" content="ANANDA DIMMAS BUDIARTO" />
         <link rel="canonical" href="https://anandadimmas.online" />
 
         {/* <!-- Open Graph Meta Tags for social sharing --> */}
-        <meta property="og:title" content="Ananda Dimmas Budiarto - Fullstack Developer dan Devops" />
-        <meta property="og:description" content="Ananda Dimmas Budiarto, a Fullstack Developer And Devops with high-level experience in both front-end and back-end web development, creating robust and scalable applications with quality work." />
+        <meta property="og:title" content="ANANDA DIMMAS BUDIARTO - FULL STACK WEB DEVELOPER, BACK END DEVELOPER AND DEVOPS" />
+        <meta property="og:description" content="ANANDA DIMMAS BUDIARTO, a Fullstack Developer And Devops with high-level experience in both front-end and back-end web development, creating robust and scalable applications with quality work." />
         <meta property="og:image" content="https://anandadimmas.online/packages/images/icon2.png" />
         <meta property="og:url" content="https://anandadimmas.online" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="id_ID" />
-        <meta property="og:site_name" content="Ananda Dimmas Budiarto" />
+        <meta property="og:site_name" content="ANANDA DIMMAS BUDIARTO" />
 
         {/* <!-- Twitter (X) Card Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Ananda Dimmas Budiarto - Fullstack Developer dan Devops" />
-        <meta name="twitter:description" content="Ananda Dimmas Budiarto, a Fullstack Developer And Devops with high-level experience in both front-end and back-end web development, creating robust and scalable applications with quality work." />
-        <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1602384184911093760/-FuyNI4J_400x400.jpg" />
+        <meta name="twitter:title" content="ANANDA DIMMAS BUDIARTO - FULL STACK WEB DEVELOPER, BACK END DEVELOPER AND DEVOPS" />
+        <meta name="twitter:description" content="ANANDA DIMMAS BUDIARTO, a Fullstack Developer And Devops with high-level experience in both front-end and back-end web development, creating robust and scalable applications with quality work." />
+        <meta name="twitter:image" content="https://anandadimmas.online/packages/images/icon2.png" />
         <meta name="twitter:site" content="@AnandaDimmas" />
         <meta name="twitter:creator" content="@AnandaDimmas" />
 
@@ -59,7 +59,7 @@ export default function Home() {
       <header className="header" id="header">
         <nav className="nav container">
           <a href="#" className="nav__logo">
-            Ananda Dimmas Budiarto
+            ANANDA DIMMAS BUDIARTO
           </a>
           <div className="nav__menu" id="nav-menu">
             <ul className="nav__list grid">
@@ -174,8 +174,8 @@ export default function Home() {
                 </svg>
               </div>
               <div className="home__data">
-                <h1 className="home__title">Hi, I am Ananda Dimmas Budiarto</h1>
-                <h3 className="home__subtitle">Fullstack Developer And Devops</h3>
+                <h1 className="home__title">Hi, I am ANANDA DIMMAS BUDIARTO</h1>
+                <h3 className="home__subtitle">FULL STACK WEB DEVELOPER, BACK END DEVELOPER AND DEVOPS</h3>
                 <p className="home__description">
                   High level experience in both front-end and back-end web development, creating robust and scalable applications with quality work.
                 </p>
@@ -202,7 +202,7 @@ export default function Home() {
             <img src="/packages/images/aku2.jpg" alt="" className="about__img" />
             <div className="about__data">
               <p className="about__description">
-                Fullstack Developer and DevOps with extensive knowledge and years of experience in developing and maintaining both front-end and back-end systems. Skilled in a wide range of technologies and tools, delivering high-quality, efficient, and scalable solutions.
+              I am a Full Stack Web Developer, Back End Developer, and DevOps professional with a deep understanding of both front-end and back-end technologies. I specialize in building scalable, robust applications and have experience working in diverse, dynamic environments. My passion lies in creating efficient solutions and driving continuous improvement in software development and deployment processes.
               </p>
               <div className="about__info">
                 <div>
@@ -507,6 +507,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+
 
         <section className="qualification__section">
           <h2 className="section__title">Qualification</h2>
@@ -1020,7 +1021,7 @@ export default function Home() {
         <div className="footer__bg">
           <div className="footer__container container grid">
             <div>
-              <h1 className="footer__title">Ananda Dimmas Budiarto</h1>
+              <h1 className="footer__title">ANANDA DIMMAS BUDIARTO</h1>
               <span className="footer__subtitle">Fullstack Developer And Devops</span>
             </div>
             <ul className="footer__links">
@@ -1064,7 +1065,7 @@ export default function Home() {
               </a> */}
             </div>
           </div>
-          <p className="footer__copy">© Ananda Dimmas Budiarto. All rights reserved.</p>
+          <p className="footer__copy">© ANANDA DIMMAS BUDIARTO. All rights reserved.</p>
         </div>
       </footer>
       {/*==================== SCROLL TOP ====================*/}
