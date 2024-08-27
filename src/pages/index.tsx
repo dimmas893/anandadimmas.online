@@ -202,7 +202,7 @@ export default function Home() {
             <img src="/packages/images/aku2.jpg" alt="" className="about__img" />
             <div className="about__data">
               <p className="about__description">
-              I am a Full Stack Web Developer, Back End Developer, and DevOps professional with a deep understanding of both front-end and back-end technologies. I specialize in building scalable, robust applications and have experience working in diverse, dynamic environments. My passion lies in creating efficient solutions and driving continuous improvement in software development and deployment processes.
+                I am a Full Stack Web Developer, Back End Developer, and DevOps professional with a deep understanding of both front-end and back-end technologies. I specialize in building scalable, robust applications and have experience working in diverse, dynamic environments. My passion lies in creating efficient solutions and driving continuous improvement in software development and deployment processes.
               </p>
               <div className="about__info">
                 <div>
@@ -761,18 +761,18 @@ export default function Home() {
           <span className="section__subtitle">Most recent works</span>
           <div className="portfolio__container container swiper-container">
             <div className="swiper-wrapper">
+
               {/*==================== PORTFOLIO 1 ====================*/}
               <div className="portfolio__content grid swiper-slide">
                 <img
-                  src="/packages/images/portfolio1.jpg"
+                  src="/packages/default.jpg"
                   alt=""
                   className="portfolio__img"
                 />
                 <div className="portfolio_">
-                  <h3 className="portfolio__title">Modern Dashboard</h3>
+                  <h3 className="portfolio__title">School Application</h3>
                   <p className="portfolio__description">
-                    Data analitical dashboard adaptable to all devices, with ui
-                    components and animated interactions.
+                    A Fullstack Monolith application designed to manage school operations, including student information systems, grading, and attendance tracking.
                   </p>
                   <a
                     href="#"
@@ -783,18 +783,18 @@ export default function Home() {
                   </a>
                 </div>
               </div>
+
               {/*==================== PORTFOLIO 2 ====================*/}
               <div className="portfolio__content grid swiper-slide">
                 <img
-                  src="/packages/images/portfolio3.PNG"
+                  src="/packages/default.jpg"
                   alt=""
                   className="portfolio__img"
                 />
                 <div className="portfolio_">
-                  <h3 className="portfolio__title">E-Commerce website</h3>
+                  <h3 className="portfolio__title">Event Management Application</h3>
                   <p className="portfolio__description">
-                    Above Amazon clone is adaptable to all devices, with ui
-                    components and animated interactions.
+                    A Fullstack Monolith application that facilitates the planning, organization, and management of events, including ticketing and attendee tracking.
                   </p>
                   <a
                     href="#"
@@ -805,18 +805,18 @@ export default function Home() {
                   </a>
                 </div>
               </div>
+
               {/*==================== PORTFOLIO 3 ====================*/}
               <div className="portfolio__content grid swiper-slide">
                 <img
-                  src="/packages/images/portfolio2.png"
+                  src="/packages/default.jpg"
                   alt=""
                   className="portfolio__img"
                 />
                 <div className="portfolio_">
-                  <h3 className="portfolio__title">Brand Design</h3>
+                  <h3 className="portfolio__title">E-commerce Application</h3>
                   <p className="portfolio__description">
-                    Tesla Clone is adaptable to all devices, with ui components and
-                    animated interactions.
+                    A Fullstack Monolith e-commerce platform that provides a comprehensive solution for online shopping, including inventory management, cart system, and payment integration.
                   </p>
                   <a
                     href="#"
@@ -827,8 +827,252 @@ export default function Home() {
                   </a>
                 </div>
               </div>
+
+              {/*==================== PORTFOLIO 4 ====================*/}
+              <div className="portfolio__content grid swiper-slide">
+                <img
+                  src="/packages/default.jpg"
+                  alt=""
+                  className="portfolio__img"
+                />
+                <div className="portfolio_">
+                  <h3 className="portfolio__title">Job Management Application</h3>
+                  <p className="portfolio__description">
+                    A Fullstack Monolith application designed to manage job postings, applications, and candidate tracking for recruitment processes.
+                  </p>
+                  <a
+                    href="#"
+                    className="button button--flex button--small portfolio__button"
+                  >
+                    Demo
+                    <i className="uil uil-arrow-right button__icon" />
+                  </a>
+                </div>
+              </div>
+
+              {/*==================== PORTFOLIO 5 ====================*/}
+              <div className="portfolio__content grid swiper-slide">
+                <img
+                  src="/packages/default.jpg"
+                  alt=""
+                  className="portfolio__img"
+                />
+                <div className="portfolio_">
+                  <h3 className="portfolio__title">E-learning Web Application</h3>
+                  <p className="portfolio__description">
+                    A Fullstack Monolith platform that offers online courses, quizzes, and certification with user progress tracking and interactive content.
+                  </p>
+                  <a
+                    href="#"
+                    className="button button--flex button--small portfolio__button"
+                  >
+                    Demo
+                    <i className="uil uil-arrow-right button__icon" />
+                  </a>
+                </div>
+              </div>
+
+              {/*==================== PORTFOLIO 6 ====================*/}
+              <div className="portfolio__content grid swiper-slide">
+                <img
+                  src="/packages/default.jpg"
+                  alt=""
+                  className="portfolio__img"
+                />
+                <div className="portfolio_">
+                  <h3 className="portfolio__title">Queue Number Application</h3>
+                  <p className="portfolio__description">
+                    A Fullstack Monolith system that manages and distributes queue numbers for service centers, ensuring organized and efficient customer service.
+                  </p>
+                  <a
+                    href="#"
+                    className="button button--flex button--small portfolio__button"
+                  >
+                    Demo
+                    <i class="uil uil-arrow-right button__icon" />
+                  </a>
+                </div>
+              </div>
+
+              {/*==================== PORTFOLIO 7 ====================*/}
+              <div className="portfolio__content grid swiper-slide">
+                <img
+                  src="/packages/default.jpg"
+                  alt=""
+                  className="portfolio__img"
+                />
+                <div className="portfolio_">
+                  <h3 className="portfolio__title">Notary Application</h3>
+                  <p className="portfolio__description">
+                    A Fullstack Monolith application for notaries to manage their clients, documents, and appointments efficiently.
+                  </p>
+                  <a
+                    href="#"
+                    className="button button--flex button--small portfolio__button"
+                  >
+                    Demo
+                    <i className="uil uil-arrow-right button__icon" />
+                  </a>
+                </div>
+              </div>
+
+              {/*==================== PORTFOLIO 8 ====================*/}
+              <div className="portfolio__content grid swiper-slide">
+                <img
+                  src="/packages/default.jpg"
+                  alt=""
+                  className="portfolio__img"
+                />
+                <div className="portfolio_">
+                  <h3 className="portfolio__title">Business Partner Booking Application</h3>
+                  <p className="portfolio__description">
+                    A Fullstack Monolith application that enables businesses to book and manage appointments with partners and clients, streamlining business operations.
+                  </p>
+                  <a
+                    href="#"
+                    className="button button--flex button--small portfolio__button"
+                  >
+                    Demo
+                    <i className="uil uil-arrow-right button__icon" />
+                  </a>
+                </div>
+              </div>
+
+              {/*==================== PORTFOLIO 9 ====================*/}
+              <div className="portfolio__content grid swiper-slide">
+                <img
+                  src="/packages/default.jpg"
+                  alt=""
+                  className="portfolio__img"
+                />
+                <div className="portfolio_">
+                  <h3 className="portfolio__title">Backend E-commerce APIs</h3>
+                  <p className="portfolio__description">
+                    A Microservices-based backend for an e-commerce platform, providing RESTful APIs for product management, order processing, and payment integration.
+                  </p>
+                  <a
+                    href="#"
+                    className="button button--flex button--small portfolio__button"
+                  >
+                    Demo
+                    <i className="uil uil-arrow-right button__icon" />
+                  </a>
+                </div>
+              </div>
+
+              {/*==================== PORTFOLIO 10 ====================*/}
+              <div className="portfolio__content grid swiper-slide">
+                <img
+                  src="/packages/default.jpg"
+                  alt=""
+                  className="portfolio__img"
+                />
+                <div className="portfolio_">
+                  <h3 className="portfolio__title">News Portal</h3>
+                  <p className="portfolio__description">
+                    A Fullstack Monolith application that serves as a news portal, delivering up-to-date news and articles with user management and content moderation features.
+                  </p>
+                  <a
+                    href="#"
+                    className="button button--flex button--small portfolio__button"
+                  >
+                    Demo
+                    <i className="uil uil-arrow-right button__icon" />
+                  </a>
+                </div>
+              </div>
+
+              {/*==================== PORTFOLIO 11 ====================*/}
+              <div className="portfolio__content grid swiper-slide">
+                <img
+                  src="/packages/default.jpg"
+                  alt=""
+                  className="portfolio__img"
+                />
+                <div className="portfolio_">
+                  <h3 className="portfolio__title">Point of Sale</h3>
+                  <p className="portfolio__description">
+                    A Microservices-based Point of Sale system that supports retail operations with inventory management, sales tracking, and customer management.
+                  </p>
+                  <a
+                    href="#"
+                    className="button button--flex button--small portfolio__button"
+                  >
+                    Demo
+                    <i className="uil uil-arrow-right button__icon" />
+                  </a>
+                </div>
+              </div>
+
+              {/*==================== PORTFOLIO 12 ====================*/}
+              <div className="portfolio__content grid swiper-slide">
+                <img
+                  src="/packages/default.jpg"
+                  alt=""
+                  className="portfolio__img"
+                />
+                <div className="portfolio_">
+                  <h3 className="portfolio__title">Asasta Payment Gateway</h3>
+                  <p className="portfolio__description">
+                    A Microservices-based payment gateway system that facilitates secure and reliable online transactions for various businesses.
+                  </p>
+                  <a
+                    href="#"
+                    className="button button--flex button--small portfolio__button"
+                  >
+                    Demo
+                    <i className="uil uil-arrow-right button__icon" />
+                  </a>
+                </div>
+              </div>
+
+              {/*==================== PORTFOLIO 13 ====================*/}
+              <div className="portfolio__content grid swiper-slide">
+                <img
+                  src="/packages/default.jpg"
+                  alt=""
+                  className="portfolio__img"
+                />
+                <div className="portfolio_">
+                  <h3 className="portfolio__title">ARI IOTU - IoT Device Management Platform</h3>
+                  <p className="portfolio__description">
+                    A Microservices-based platform for managing IoT devices, providing real-time monitoring, device configuration, and data analytics.
+                  </p>
+                  <a
+                    href="#"
+                    className="button button--flex button--small portfolio__button"
+                  >
+                    Demo
+                    <i className="uil uil-arrow-right button__icon" />
+                  </a>
+                </div>
+              </div>
+
+              {/*==================== PORTFOLIO 14 ====================*/}
+              <div className="portfolio__content grid swiper-slide">
+                <img
+                  src="/packages/default.jpg"
+                  alt=""
+                  className="portfolio__img"
+                />
+                <div className="portfolio_">
+                  <h3 className="portfolio__title">API WhatsApp Service</h3>
+                  <p className="portfolio__description">
+                    A Microservices-based API service that integrates with WhatsApp to provide automated messaging, notifications, and customer support features.
+                  </p>
+                  <a
+                    href="#"
+                    className="button button--flex button--small portfolio__button"
+                  >
+                    Demo
+                    <i className="uil uil-arrow-right button__icon" />
+                  </a>
+                </div>
+              </div>
+
             </div>
-            {/* add arrows*/}
+
+            {/* Add arrows */}
             <div className="swiper-button-next">
               <i className="" />
             </div>
@@ -839,6 +1083,7 @@ export default function Home() {
             <div className="swiper-pagination" />
           </div>
         </section>
+
         {/*==================== PROJECT IN MIND ====================*/}
         <section className="project section">
           <div className="project__bg">
