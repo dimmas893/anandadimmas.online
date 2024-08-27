@@ -1267,7 +1267,7 @@ export default function Home() {
           <div className="footer__container container grid">
             <div>
               <h1 className="footer__title">ANANDA DIMMAS BUDIARTO</h1>
-              <span className="footer__subtitle">Fullstack Developer And Devops</span>
+              <span className="footer__subtitle">FULL STACK WEB DEVELOPER, BACK END DEVELOPER AND DEVOPS</span>
             </div>
             <ul className="footer__links">
               <li>
