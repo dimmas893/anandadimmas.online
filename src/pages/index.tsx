@@ -541,8 +541,7 @@ export default function Home() {
                       Politeknik Tugu Jakarta
                     </span>
                     <div className="qualification__calendar">
-                      <i className="uil uil-calendar-alt" />
-                      2019 - 2022
+                      <i className="uil uil-calendar-alt" /> 2019 - 2022
                     </div>
                   </div>
                   <div>
@@ -562,15 +561,28 @@ export default function Home() {
                       Universitas Nusa Mandiri
                     </span>
                     <div className="qualification__calendar">
-                      <i className="uil uil-calendar-alt" />
-                      2023 - not graduated yet
+                      <i className="uil uil-calendar-alt" /> 2023 - not graduated yet
                     </div>
                   </div>
                 </div>
               </div>
               {/*==================== QUALIFICATION CONTENT 2 ====================*/}
               <div className="qualification__content" data-content="" id="work">
-                {/*==================== QUALIFICATION 2 ====================*/}
+                {/* Experience 1 */}
+                <div className="qualification__data">
+                  <div>
+                    <h3 className="qualification__title">Full Stack Web Developer, Back End Developer and Devops</h3>
+                    <span className="qualification__subtitle">PT. BILINDO INFO SISTEMA</span>
+                    <div className="qualification__calendar">
+                      <i className="uil uil-calendar-alt" /> May 2022 - March 2023
+                    </div>
+                  </div>
+                  <div>
+                    <span className="qualification__rounder" />
+                    <span className="qualification__line" />
+                  </div>
+                </div>
+                {/* Experience 2 */}
                 <div className="qualification__data">
                   <div />
                   <div>
@@ -578,35 +590,24 @@ export default function Home() {
                     <span className="qualification__line" />
                   </div>
                   <div>
-                    <h3 className="qualification__title">
-                      Full Stack Web Developer, Back End Developer and Devops
-                    </h3>
-                    <span className="qualification__subtitle">
-                      PT. BILINDO INFO SISTEMA
-                    </span>
+                    <h3 className="qualification__title">Full Stack Web Developer and Devops</h3>
+                    <span className="qualification__subtitle">PT INFRASTRUKTUR TELEKOMUNIKASI INDONESIA</span>
                     <div className="qualification__calendar">
-                      <i className="uil uil-calendar-alt" />
-                      1 August 2022 - 31 August 2023
+                      <i className="uil uil-calendar-alt" /> October 2023 - March 2023
                     </div>
                   </div>
                 </div>
-                {/*==================== QUALIFICATION 3 ====================*/}
+                {/* Experience 3 */}
                 <div className="qualification__data">
                   <div>
-                    <h3 className="qualification__title">
-                      Back End Developer and Devops
-                    </h3>
-                    <span className="qualification__subtitle">
-                      PT DIBUILTADI TEKNOLOGI KREATIF
-                    </span>
+                    <h3 className="qualification__title">Back End Developer and Devops</h3>
+                    <span className="qualification__subtitle">PT DIBUILTADI TEKNOLOGI KREATIF</span>
                     <div className="qualification__calendar">
-                      <i className="uil uil-calendar-alt" />
-                      July 2023 - June 2024
+                      <i className="uil uil-calendar-alt" /> April 2024 - August 2024
                     </div>
                   </div>
                   <div>
                     <span className="qualification__rounder" />
-                    {/* <span class="qualification__line"></span> */}
                   </div>
                 </div>
               </div>
