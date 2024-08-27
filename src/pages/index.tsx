@@ -889,7 +889,7 @@ export default function Home() {
                     className="button button--flex button--small portfolio__button"
                   >
                     Demo
-                    <i class="uil uil-arrow-right button__icon" />
+                    <i className="uil uil-arrow-right button__icon" />
                   </a>
                 </div>
               </div>
