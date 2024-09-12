@@ -562,7 +562,7 @@ export default function Home() {
                       Universitas Nusa Mandiri
                     </span>
                     <div className="qualification__calendar">
-                      <i className="uil uil-calendar-alt" /> 2023 - not graduated yet
+                      <i className="uil uil-calendar-alt" /> 2023 - 2024
                     </div>
                   </div>
                 </div>
